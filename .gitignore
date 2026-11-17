@@ -1,0 +1,44 @@
+
+# Java / Spring Boot
+target/
+*.class
+*.jar
+*.war
+*.log
+
+# Maven
+.mvn/wrapper/maven-wrapper.jar
+
+# Frontend dependencies
+node_modules/
+dist/
+build/
+coverage/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
